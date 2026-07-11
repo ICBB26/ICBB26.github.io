@@ -83,6 +83,7 @@
   .cta-row{display:flex; gap:14px; margin-top:36px; flex-wrap:wrap;}
   .ticker{font-family:var(--font-mono); font-size:12px; letter-spacing:.3em; color:var(--line); white-space:nowrap; overflow:hidden; border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:14px 0; margin-top:56px;}
   .ticker-track{display:flex; width:max-content; animation:scroll 40s linear infinite;}
+  .ticker-highlight{color:var(--growth); font-weight:500;}
   @keyframes scroll{ from{transform:translateX(0);} to{transform:translateX(-50%);} }
 
   .about-grid{display:grid; grid-template-columns:.9fr 1.1fr; gap:56px;}
@@ -166,7 +167,7 @@
 
   .sponsor-row{display:flex; flex-wrap:wrap; gap:44px; align-items:center; justify-content:center; padding:20px 0;}
   .sponsor-row a{display:block; line-height:0;}
-  .sponsor-row img{height:52px; width:auto; filter:grayscale(100%) contrast(1.1); opacity:.75; transition:opacity .15s ease, filter .15s ease;}
+  .sponsor-row img{height:84px; width:auto; filter:grayscale(100%) contrast(1.1); opacity:.75; transition:opacity .15s ease, filter .15s ease;}
   .sponsor-row img:hover{filter:none; opacity:1;}
 
   .colo-box{border:1px solid var(--line); background:var(--paper-raised); padding:32px; display:grid; grid-template-columns:.5fr 1fr; gap:32px;}
@@ -193,7 +194,7 @@
 
 <div class="topbar">
   <div class="wrap">
-    <a href="https://wp.ensbiotech.edu.dz/" target="_blank" rel="noopener"><img src="assets/ensb.png" alt="ENSB"></a>
+    <a href="https://wp.ensbiotech.edu.dz/" target="_blank" rel="noopener"><img src="assets/ensb.png" alt="ENSB" style="height:88px;"></a>
     <a href="https://saidalgroup.dz/" target="_blank" rel="noopener"><img src="assets/saidal.png" alt="Saidal"></a>
     <img src="assets/biotech_lab.png" alt="Biotechnology laboratory">
     <img src="assets/bioeng_lab.png" alt="Bioengineering laboratory">
@@ -206,6 +207,7 @@
     <ul class="navlinks" id="navlinks">
       <li><a href="#about">About</a></li>
       <li><a href="#topics">Topics</a></li>
+      <li><a href="#organization">Organization</a></li>
       <li><a href="#speakers">Speakers</a></li>
       <li><a href="#program">Program</a></li>
       <li><a href="#colocated">Co-located events</a></li>
@@ -214,7 +216,6 @@
       <li><a href="#submission">Submission</a></li>
       <li><a href="#dates">Key dates</a></li>
       <li><a href="#registration">Registration</a></li>
-      <li><a href="#organization">Organization</a></li>
       <li><a href="#sponsors">Sponsors</a></li>
       <li><a href="#faqs">FAQs</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -249,8 +250,8 @@
   </div>
   <div class="ticker">
     <div class="ticker-track">
-      <span>BIOMEDICAL · PHARMACEUTICAL · AGRI-FOOD · NANOBIOTECHNOLOGY · BIOMATERIALS · INDUSTRIAL BIOTECH · FERMENTATION · BIOINFORMATICS · AI · COMPUTATIONAL BIOLOGY · BIOENERGY · BIOFUELS ·</span>
-      <span>BIOMEDICAL · PHARMACEUTICAL · AGRI-FOOD · NANOBIOTECHNOLOGY · BIOMATERIALS · INDUSTRIAL BIOTECH · FERMENTATION · BIOINFORMATICS · AI · COMPUTATIONAL BIOLOGY · BIOENERGY · BIOFUELS ·</span>
+      <span><span class="ticker-highlight">SPECIAL ISSUE — FRONTIERS IN BIOENGINEERING AND BIOTECHNOLOGY</span> · BIOMEDICAL · PHARMACEUTICAL · AGRI-FOOD · NANOBIOTECHNOLOGY · BIOMATERIALS · INDUSTRIAL BIOTECHNOLOGY · FERMENTATION · BIOINFORMATICS · AI · COMPUTATIONAL BIOLOGY · BIOENERGY · BIOFUELS ·</span>
+      <span><span class="ticker-highlight">SPECIAL ISSUE — FRONTIERS IN BIOENGINEERING AND BIOTECHNOLOGY</span> · BIOMEDICAL · PHARMACEUTICAL · AGRI-FOOD · NANOBIOTECHNOLOGY · BIOMATERIALS · INDUSTRIAL BIOTECHNOLOGY · FERMENTATION · BIOINFORMATICS · AI · COMPUTATIONAL BIOLOGY · BIOENERGY · BIOFUELS ·</span>
     </div>
   </div>
 </section>
@@ -269,7 +270,6 @@
       <div class="stat-col">
         <div class="stat"><div class="num">03</div><div class="lbl">Conference days</div></div>
         <div class="stat"><div class="num">06</div><div class="lbl">Thematic tracks</div></div>
-        <div class="stat"><div class="num">30+</div><div class="lbl">Scientific committee members</div></div>
         <div class="stat"><div class="num">1st</div><div class="lbl">ICBB edition</div></div>
       </div>
     </div>
@@ -318,6 +318,60 @@
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<section id="organization" class="alt">
+  <div class="wrap">
+    <div class="eyebrow">Organization</div>
+    <h2>Organizing committee</h2>
+    <div class="chair-row">
+      <div class="chair-block"><div class="lbl">Honorary chair</div><p>Prof. Douadi Khelifi, Director of ENSB<br>Prof. Mourad Belkhelfa, CEO of Saidal</p></div>
+      <div class="chair-block"><div class="lbl">Chairs</div><p>Dr. Mohammed Berkani, ENSB<br>Dr. Mohamed Adel Kechkar, ENSB</p></div>
+    </div>
+
+    <details>
+      <summary>Organising committee</summary>
+      <div class="name-grid">
+        <div><strong>Dr. Mohammed Berkani</strong> — ENSB, President</div>
+        <div><strong>Dr. Mohamed Adel Kechkar</strong> — ENSB</div>
+        <div><strong>Dr. Fatma Zahra Sakhri</strong> — ENSB</div>
+        <div><strong>Dr. Nassim Seghir</strong> — ENSB, Web Chair</div>
+        <div><strong>Mrs. Narimene Beder</strong> — Saidal</div>
+        <div><strong>Mrs. Hamida Bouchekhlal</strong> — Saidal</div>
+        <div><strong>Mrs. Mouna Aoulmane</strong> — Saidal</div>
+        <div><strong>Mrs. Malak Nour El Houda Hamid</strong> — Saidal</div>
+        <div><strong>Prof. Dalila Naimi</strong> — ENSB</div>
+        <div><strong>Dr. Mohamed Maarouf Aribi</strong> — ENSB</div>
+        <div><strong>Dr. Fateh Merouane</strong> — ENSB</div>
+        <div><strong>Prof. Moustafa Bani</strong> — ENSB</div>
+        <div><strong>Dr. Souhaib Zerrouki</strong> — ENSB</div>
+        <div><strong>Prof. Rafik Marir</strong> — ENSB</div>
+        <div><strong>Prof. Nadjem Lakhdari</strong> — ENSB</div>
+        <div><strong>Dr. Ahlem Chelghoum</strong> — ENSB</div>
+        <div><strong>Dr. Chemeseddine Derabli</strong> — ENSB</div>
+        <div><strong>Dr. Mahbouba Benmati</strong> — ENSB</div>
+        <div><strong>Dr. Taklit Maddi</strong> — ENSB</div>
+        <div><strong>Dr. Noureddine Rahim</strong> — ENSB</div>
+        <div><strong>Prof. Youcef Ferdi</strong> — ENSB</div>
+        <div><strong>Dr. Fouzia Leulmi</strong> — ENSB</div>
+        <div><strong>Dr. Souad Amiour</strong> — ENSB</div>
+        <div><strong>Dr. Moufida Rira</strong> — ENSB</div>
+        <div><strong>Dr. Tarek Alloui</strong> — ENSB</div>
+        <div><strong>Dr. Ahmed Bouziane</strong> — ENSB</div>
+        <div><strong>Dr. Mouna Imene Ousaadi</strong> — ENSB</div>
+        <div><strong>Dr. Imene Assadi</strong> — ENSB</div>
+        <div><strong>Dr. Amina Alouache</strong> — ENSB</div>
+        <div><strong>Dr. Marwa Zermane</strong> — ENSB</div>
+        <div><strong>Dr. Ines Laourari</strong> — ENSB</div>
+        <div><strong>Mr. Antar Mohamed Bouchala</strong> — ENSB</div>
+        <div><strong>Mrs. Gueraiche Sara</strong> — ENSB</div>
+        <div><strong>Ms. Asma Chebbahi</strong> — ENSB</div>
+        <div><strong>Mr. Skander Dekieche</strong> — ENSB</div>
+        <div><strong>Mr. Asma Guemraoui</strong> — ENSB</div>
+        <div><strong>Mr. Houssem Benkara</strong> — ENSB</div>
+      </div>
+    </details>
   </div>
 </section>
 
@@ -370,7 +424,7 @@
       </div>
       <div>
         <p style="margin-bottom:14px;">A workshop dedicated to bioinformatics and computational biology will be held alongside ICBB 2026.</p>
-        <p style="font-size:14px;"><strong style="color:var(--ink); font-weight:500;">Organised by:</strong> Amazigh Mokhtari, Principal Data Scientist, Sanofi · Mohamed Adel Kechkar, Associate Professor, ENSB · Tarek Alloui, Associate Professor, ENSB</p>
+        <p style="font-size:14px;"><strong style="color:var(--ink); font-weight:500;">Organised by:</strong> Dr. Amazigh Mokhtari, Principal Data Scientist, Sanofi · Dr. Mohamed Adel Kechkar, Associate Professor, ENSB · Dr. Tarek Alloui, Associate Professor, ENSB</p>
       </div>
     </div>
   </div>
@@ -396,41 +450,42 @@
   <div class="wrap">
     <div class="eyebrow">Scientific committee</div>
     <h2>Scientific committee</h2>
-    <p style="font-size:13px; margin-bottom:20px;">This list will be updated regularly.</p>
     <details open>
-      <summary>31 members</summary>
+      <summary>Members</summary>
       <div class="name-grid">
-        <div><strong>Thomas J. Webster</strong> — Northeastern University, USA</div>
-        <div><strong>Malika Ait Boudries</strong> — Harvard University, USA</div>
-        <div><strong>Mohammed Gagaoua</strong> — INRAE, France</div>
-        <div><strong>Said Dermime</strong> — Translational Cancer Research Facility, NCCCR, Qatar</div>
-        <div><strong>Diego Rubiales</strong> — Institute for Sustainable Agriculture, CSIC, Cordoba, Spain</div>
-        <div><strong>Partha Majumder</strong> — National Science Chair, Science & Engineering Board, India</div>
-        <div><strong>Jameel Al-Khayri</strong> — King Faisal University, Saudi Arabia</div>
-        <div><strong>Khaled Trabelsi</strong> — Institut Pasteur, Tunisia</div>
-        <div><strong>Sigrid Flahaut</strong> — Université Libre de Bruxelles, Belgium</div>
-        <div><strong>Douadi Khelifi</strong> — ENSB, Algeria</div>
-        <div><strong>Youcef Ferdi</strong> — ENSB, Algeria</div>
-        <div><strong>Dalila Naimi</strong> — ENSB, Algeria</div>
-        <div><strong>Nadjem Lakhdari</strong> — ENSB, Algeria</div>
-        <div><strong>Rafik Marir</strong> — ENSB, Algeria</div>
-        <div><strong>Moustafa Bani</strong> — ENSB, Algeria</div>
-        <div><strong>Amazigh Mokhtari</strong> — Sanofi, France</div>
-        <div><strong>Hoe-Han Goh</strong> — Universiti Kebangsaan, Malaysia</div>
-        <div><strong>Nicolas Rispail</strong> — Institute for Sustainable Agriculture, CSIC, Cordoba, Spain</div>
-        <div><strong>Gianluca Viscusi</strong> — University of Salerno, Italy</div>
-        <div><strong>Amina Rhouati</strong> — Alfaisal University, Saudi Arabia</div>
-        <div><strong>Mohamed Nadhir Djekidel</strong> — Sidra Medicine, Qatar</div>
-        <div><strong>Houssem Boulebd</strong> — Constantine 1 University, Algeria</div>
-        <div><strong>Sofiane Boudalia</strong> — University of Guelma, Algeria</div>
-        <div><strong>Abdesselam Ferdi</strong> — University of Tartu, Estonia</div>
-        <div><strong>Abdelhafid Hamidechi</strong> — Abbes Laghrour University Khenchela, Algeria</div>
-        <div><strong>Noureddine Kacem Chaouech</strong> — University of Constantine 1, Algeria</div>
-        <div><strong>Fathi Berrabah</strong> — Research Unit in Medicinal Plants (CRBt) Laghouat, Algeria</div>
-        <div><strong>Sihem Arris</strong> — University of Constantine 3, Algeria</div>
-        <div><strong>Nawel Outili</strong> — University of Constantine 3, Algeria</div>
-        <div><strong>Akila Ben Aissa</strong> — University of Constantine 3, Algeria</div>
-        <div><strong>Mohamed Bouhelassa</strong> — University of Constantine 3, Algeria</div>
+        <div><strong>Prof. Thomas J. Webster</strong> — Northeastern University, USA</div>
+        <div><strong>Prof. Malika Ait Boudries</strong> — Harvard University, USA</div>
+        <div><strong>Prof. Mohammed Gagaoua</strong> — INRAE, France</div>
+        <div><strong>Prof. Said Dermime</strong> — Translational Cancer Research Facility, NCCCR, Qatar</div>
+        <div><strong>Prof. Diego Rubiales</strong> — Institute for Sustainable Agriculture, CSIC, Cordoba, Spain</div>
+        <div><strong>Prof. Partha Majumder</strong> — National Science Chair, Science & Engineering Board, India</div>
+        <div><strong>Prof. Jameel Al-Khayri</strong> — King Faisal University, Saudi Arabia</div>
+        <div><strong>Prof. Kassahun Tesfaye</strong> — Institute of Advanced Science & Technology, Ethiopia</div>
+        <div><strong>Prof. Khaled Trabelsi</strong> — Institut Pasteur, Tunisia</div>
+        <div><strong>Prof. Sigrid Flahaut</strong> — Université Libre de Bruxelles, Belgium</div>
+        <div><strong>Prof. Douadi Khelifi</strong> — ENSB, Algeria</div>
+        <div><strong>Prof. Youcef Ferdi</strong> — ENSB, Algeria</div>
+        <div><strong>Prof. Dalila Naimi</strong> — ENSB, Algeria</div>
+        <div><strong>Prof. Nadjem Lakhdari</strong> — ENSB, Algeria</div>
+        <div><strong>Prof. Rafik Marir</strong> — ENSB, Algeria</div>
+        <div><strong>Prof. Moustafa Bani</strong> — ENSB, Algeria</div>
+        <div><strong>Dr. Amazigh Mokhtari</strong> — Sanofi, France</div>
+        <div><strong>Prof. Hoe-Han Goh</strong> — Universiti Kebangsaan, Malaysia</div>
+        <div><strong>Prof. Nicolas Rispail</strong> — Institute for Sustainable Agriculture, CSIC, Cordoba, Spain</div>
+        <div><strong>Dr. Gianluca Viscusi</strong> — University of Salerno, Italy</div>
+        <div><strong>Prof. Amina Rhouati</strong> — Alfaisal University, Saudi Arabia</div>
+        <div><strong>Dr. Mohamed Nadhir Djekidel</strong> — Sidra Medicine, Qatar</div>
+        <div><strong>Prof. Houssem Boulebd</strong> — Constantine 1 University, Algeria</div>
+        <div><strong>Prof. Sofiane Boudalia</strong> — University of Guelma, Algeria</div>
+        <div><strong>Dr. Abdesselam Ferdi</strong> — University of Tartu, Estonia</div>
+        <div><strong>Prof. Abdelhafid Hamidechi</strong> — Abbes Laghrour University Khenchela, Algeria</div>
+        <div><strong>Prof. Noureddine Kacem Chaouech</strong> — University of Constantine 1, Algeria</div>
+        <div><strong>Prof. Fathi Berrabah</strong> — Research Unit in Medicinal Plants (CRBt) Laghouat, Algeria</div>
+        <div><strong>Dr. Belgacem Zarouri</strong> — National Biotechnology Research Center (CRBt), Constantine, Algeria</div>
+        <div><strong>Prof. Sihem Arris</strong> — University of Constantine 3, Algeria</div>
+        <div><strong>Prof. Nawel Outili</strong> — University of Constantine 3, Algeria</div>
+        <div><strong>Prof. Akila Ben Aissa</strong> — University of Constantine 3, Algeria</div>
+        <div><strong>Prof. Mohamed Bouhelassa</strong> — University of Constantine 3, Algeria</div>
       </div>
     </details>
   </div>
@@ -472,12 +527,14 @@
     <div class="eyebrow">Calendar</div>
     <h2>Key dates</h2>
     <div class="ladder">
-      <div class="rung now"><div class="rdate">12 July 2026</div><div class="rlabel">Call for abstracts opens</div></div>
-      <div class="rung"><div class="rdate">7 September 2026</div><div class="rlabel">Early bird abstract submission</div></div>
-      <div class="rung"><div class="rdate">1 October 2026</div><div class="rlabel">Regular abstract submission</div></div>
-      <div class="rung"><div class="rdate">+ 2 weeks</div><div class="rlabel">Acceptance / rejection notification</div></div>
-      <div class="rung"><div class="rdate">+ 3 weeks</div><div class="rlabel">Participation confirmation and registration</div></div>
-      <div class="rung"><div class="rdate">1 November 2026</div><div class="rlabel">Short paper submission (conference proceedings)</div></div>
+      <div class="rung now"><div class="rdate">12 July 2026</div><div class="rlabel">Call for Abstracts Opens</div></div>
+      <div class="rung"><div class="rdate">10 September 2026</div><div class="rlabel">Early Bird Abstract Submission Deadline</div></div>
+      <div class="rung"><div class="rdate">25 September 2026</div><div class="rlabel">Early Bird Acceptance/Rejection Notification</div></div>
+      <div class="rung"><div class="rdate">5 October 2026</div><div class="rlabel">Early Bird Registration Deadline</div></div>
+      <div class="rung"><div class="rdate">10 October 2026</div><div class="rlabel">Regular Abstract Submission Deadline</div></div>
+      <div class="rung"><div class="rdate">25 October 2026</div><div class="rlabel">Regular Acceptance/Rejection Notification</div></div>
+      <div class="rung"><div class="rdate">5 November 2026</div><div class="rlabel">Regular Registration Deadline</div></div>
+      <div class="rung"><div class="rdate">30 November 2026</div><div class="rlabel">Short Paper Submission Deadline (Conference Proceedings)</div></div>
       <div class="rung"><div class="rdate">6 – 8 December 2026</div><div class="rlabel">Conference dates</div></div>
       <div class="rung"><div class="rdate">1 February 2027</div><div class="rlabel">Full manuscript for the special issue</div></div>
     </div>
@@ -509,60 +566,6 @@
   </div>
 </section>
 
-<section id="organization" class="alt">
-  <div class="wrap">
-    <div class="eyebrow">Organization</div>
-    <h2>Organizing committee</h2>
-    <div class="chair-row">
-      <div class="chair-block"><div class="lbl">Honorary chair</div><p>Douadi Khelifi, Director of ENSB<br>Mourad Belkhelfa, CEO of Saidal</p></div>
-      <div class="chair-block"><div class="lbl">Chairs</div><p>Mohammed Berkani, ENSB<br>Mohamed Adel Kechkar, ENSB</p></div>
-    </div>
-
-    <details>
-      <summary>Organising committee (37 members)</summary>
-      <div class="name-grid">
-        <div><strong>Mohammed Berkani</strong> — ENSB, President</div>
-        <div><strong>Mohamed Adel Kechkar</strong> — ENSB</div>
-        <div><strong>Fatma Zahra Sakhri</strong> — ENSB</div>
-        <div><strong>Nassim Seghir</strong> — ENSB, Web Chair</div>
-        <div><strong>Narimene Beder</strong> — Saidal</div>
-        <div><strong>Hamida Bouchekhlal</strong> — Saidal</div>
-        <div><strong>Mouna Aoulmane</strong> — Saidal</div>
-        <div><strong>Malak Nour El Houda Hamid</strong> — Saidal</div>
-        <div><strong>Dalila Naimi</strong> — ENSB</div>
-        <div><strong>Mohamed Maarouf Aribi</strong> — ENSB</div>
-        <div><strong>Fateh Merouane</strong> — ENSB</div>
-        <div><strong>Moustafa Bani</strong> — ENSB</div>
-        <div><strong>Souhaib Zerrouki</strong> — ENSB</div>
-        <div><strong>Rafik Marir</strong> — ENSB</div>
-        <div><strong>Nadjem Lakhdari</strong> — ENSB</div>
-        <div><strong>Ahlem Chelghoum</strong> — ENSB</div>
-        <div><strong>Chemeseddine Derabli</strong> — ENSB</div>
-        <div><strong>Mahbouba Benmati</strong> — ENSB</div>
-        <div><strong>Taklit Maddi</strong> — ENSB</div>
-        <div><strong>Noureddine Rahim</strong> — ENSB</div>
-        <div><strong>Youcef Ferdi</strong> — ENSB</div>
-        <div><strong>Fouzia Leulmi</strong> — ENSB</div>
-        <div><strong>Souad Amiour</strong> — ENSB</div>
-        <div><strong>Moufida Rira</strong> — ENSB</div>
-        <div><strong>Tarek Alloui</strong> — ENSB</div>
-        <div><strong>Ahmed Bouziane</strong> — ENSB</div>
-        <div><strong>Mouna Imene Ousaadi</strong> — ENSB</div>
-        <div><strong>Imene Assadi</strong> — ENSB</div>
-        <div><strong>Amina Alouache</strong> — ENSB</div>
-        <div><strong>Marwa Zermane</strong> — ENSB</div>
-        <div><strong>Ines Laourari</strong> — ENSB</div>
-        <div><strong>Antar Mohamed Bouchala</strong> — ENSB</div>
-        <div><strong>Gueraiche Sara</strong> — ENSB</div>
-        <div><strong>Asma Chebbahi</strong> — ENSB</div>
-        <div><strong>Skander Dekieche</strong> — ENSB</div>
-        <div><strong>Asma Guemraoui</strong> — ENSB</div>
-        <div><strong>Houssem Benkara</strong> — ENSB</div>
-      </div>
-    </details>
-  </div>
-</section>
-
 <section id="sponsors">
   <div class="wrap">
     <div class="eyebrow">Partners</div>
@@ -570,6 +573,7 @@
     <div class="sponsor-row">
       <a href="https://dgrsdt.dz/fr" target="_blank" rel="noopener"><img src="assets/rsdt.png" alt="DGRSDT" loading="lazy"></a>
       <a href="https://www.atrssv.dz/" target="_blank" rel="noopener"><img src="assets/atrssv2.png" alt="ATRSS" loading="lazy"></a>
+      <img src="assets/incubateur-ensb.jpg" alt="IncuBiotech — ENSB Business Incubator" loading="lazy">
       <img src="assets/cambio.png" alt="Cambio" loading="lazy">
     </div>
   </div>
