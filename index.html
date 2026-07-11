@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ICBB 2026 — 1st International Conference on Biotechnology & Bioengineering</title>
+<meta name="description" content="ICBB 2026 — 1st International Conference on Biotechnology and Bioengineering, December 6-8, 2026, ENSB, Constantine, Algeria. Theme: Advancing Science for a Sustainable Future Through Biotechnology. Call for abstracts now open.">
+<meta name="keywords" content="ICBB 2026, biotechnology conference, bioengineering conference, Constantine Algeria, ENSB, Ecole Nationale Superieure de Biotechnologie, biomedical and pharmaceutical biotechnology, plant agri-food biotechnology, nanobiotechnology, advanced biomaterials, industrial biotechnology, fermentation sciences, bioinformatics, artificial intelligence, computational biology, bioenergy, biofuels, sustainable biotechnology, call for abstracts, scientific committee, international conference 2026">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1B2233;
+    --paper:#EFEAE0;
+    --paper-raised:#FFFFFF;
+    --moss:#28324D;
+    --moss-deep:#141A2B;
+    --growth:#B5672B;
+    --slate:#6B6357;
+    --line:#DED7C7;
+    --font-display:'Fraunces', serif;
+    --font-body:'IBM Plex Sans', sans-serif;
+    --font-mono:'IBM Plex Mono', monospace;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto;} *{animation:none !important; transition:none !important;} }
+  body{background:var(--paper); color:var(--ink); font-family:var(--font-body); font-size:16px; line-height:1.6; -webkit-font-smoothing:antialiased;}
+  a{color:inherit;}
+  img{max-width:100%; display:block;}
+  .wrap{max-width:1080px; margin:0 auto; padding:0 32px;}
+  .eyebrow{font-family:var(--font-mono); font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--growth); display:flex; align-items:center; gap:10px; margin-bottom:14px;}
+  .eyebrow::before{content:""; width:22px; height:1px; background:var(--growth);}
+  h1,h2,h3{font-family:var(--font-display); font-weight:600; color:var(--moss-deep); line-height:1.15;}
+  h2{font-size:clamp(28px,4vw,40px); margin-bottom:20px;}
+  h3{font-size:20px; font-weight:500;}
+  p, li{color:var(--slate); text-align:justify; text-justify:inter-word; hyphens:auto;}
+  section{padding:96px 0;}
+  .btn{display:inline-flex; align-items:center; gap:8px; font-family:var(--font-mono); font-size:13px; letter-spacing:.03em; text-decoration:none; padding:13px 26px; border-radius:2px; border:1px solid var(--moss); color:var(--moss-deep); transition:background .15s ease, color .15s ease;}
+  .btn:hover{background:var(--moss-deep); color:var(--paper);}
+  .btn.primary{background:var(--moss-deep); color:var(--paper); border-color:var(--moss-deep);}
+  .btn.primary:hover{background:var(--growth); border-color:var(--growth); color:var(--ink);}
+
+  header{position:sticky; top:0; z-index:50; background:rgba(239,234,224,.92); backdrop-filter:blur(6px); border-bottom:1px solid var(--line);}
+  nav.wrap{display:flex; align-items:center; justify-content:space-between; padding-top:16px; padding-bottom:16px;}
+  .brand{font-family:var(--font-display); font-weight:600; font-size:19px; text-decoration:none; color:var(--moss-deep);}
+  .brand span{color:var(--growth);}
+  .navlinks{display:flex; gap:16px; list-style:none; flex-wrap:nowrap; overflow-x:auto; scrollbar-width:none;}
+  .navlinks::-webkit-scrollbar{display:none;}
+  .navlinks a{font-size:12.5px; text-decoration:none; color:var(--slate); padding:4px 0; border-bottom:1px solid transparent; white-space:nowrap;}
+  .navlinks a:hover{color:var(--moss-deep); border-color:var(--growth);}
+  .navtoggle{display:none; background:none; border:1px solid var(--line); border-radius:2px; width:38px; height:38px; cursor:pointer;}
+  .navtoggle span{display:block; width:16px; height:1.5px; background:var(--ink); margin:3px auto;}
+  @media (max-width:960px){
+    .navlinks{position:absolute; top:100%; left:0; right:0; background:var(--paper); flex-direction:column; gap:0; border-bottom:1px solid var(--line); max-height:0; overflow:hidden; transition:max-height .25s ease;}
+    .navlinks.open{max-height:560px; overflow-y:auto;}
+    .navlinks a{display:block; padding:14px 32px; border-bottom:1px solid var(--line); width:100%;}
+    .navtoggle{display:block;}
+  }
+
+  .hero{padding:88px 0 64px; position:relative; overflow:hidden; background-image:linear-gradient(rgba(16,20,33,.58),rgba(16,20,33,.68)), url('https://commons.wikimedia.org/wiki/Special:FilePath/Pont_de_Sidi_Rached.JPG'); background-size:cover; background-position:center 60%;}
+  .hero h1{color:var(--paper); text-shadow:0 2px 16px rgba(0,0,0,.55); font-size:clamp(40px,7vw,72px); letter-spacing:-.01em; margin-bottom:18px;}
+  .hero .theme{font-family:var(--font-display); font-style:italic; font-weight:400; font-size:20px; max-width:520px; margin-bottom:32px; color:#F7D9A8; background:rgba(10,14,24,.5); backdrop-filter:blur(3px); -webkit-backdrop-filter:blur(3px); padding:10px 16px; border-radius:2px; display:inline-block;}
+  .hero .eyebrow{color:var(--paper); background:rgba(10,14,24,.5); backdrop-filter:blur(3px); -webkit-backdrop-filter:blur(3px); padding:7px 14px; border-radius:2px; display:inline-flex; width:fit-content;}
+  .hero-grid > div > p{color:rgba(239,234,224,.92); text-shadow:0 1px 10px rgba(0,0,0,.6);}
+  .hero-meta{display:flex; flex-wrap:wrap; gap:12px; margin-top:36px; font-family:var(--font-mono); font-size:13px;}
+  .hero-meta div{color:rgba(239,234,224,.92); background:rgba(10,14,24,.45); backdrop-filter:blur(3px); -webkit-backdrop-filter:blur(3px); padding:9px 14px; border-radius:2px;}
+  .hero-meta strong{color:var(--paper); display:block; font-size:15px; margin-bottom:2px;}
+  .hero-side{border-left:1px solid rgba(239,234,224,.25); padding-left:28px;}
+  .hero .btn{border-color:rgba(239,234,224,.6); color:var(--paper);}
+  .hero .btn:hover{background:var(--paper); color:var(--moss-deep);}
+  .hero .btn.primary{background:var(--growth); border-color:var(--growth); color:var(--moss-deep);}
+  .hero .btn.primary:hover{background:var(--paper); color:var(--moss-deep); border-color:var(--paper);}
+
+  .topbar{background:var(--paper-raised); padding:22px 0; border-bottom:1px solid var(--line);}
+  .topbar .wrap{display:flex; align-items:center; justify-content:center; gap:56px; flex-wrap:wrap;}
+  .topbar a{display:block; line-height:0;}
+  .topbar img{height:64px; width:auto; opacity:.92; transition:opacity .15s ease;}
+  .topbar a:hover img, .topbar img:hover{opacity:1;}
+  .hero-grid{display:grid; grid-template-columns:1.3fr .7fr; gap:48px; align-items:end;}
+  @media (max-width:860px){.hero-grid{grid-template-columns:1fr;}}
+  .cta-row{display:flex; gap:14px; margin-top:36px; flex-wrap:wrap;}
+  .ticker{font-family:var(--font-mono); font-size:12px; letter-spacing:.3em; color:var(--line); white-space:nowrap; overflow:hidden; border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:14px 0; margin-top:56px;}
+  .ticker-track{display:flex; width:max-content; animation:scroll 40s linear infinite;}
+  @keyframes scroll{ from{transform:translateX(0);} to{transform:translateX(-50%);} }
+
+  .about-grid{display:grid; grid-template-columns:.9fr 1.1fr; gap:56px;}
+  @media (max-width:860px){.about-grid{grid-template-columns:1fr;}}
+  .about-grid p{margin-bottom:16px;}
+  .stat-col{display:flex; flex-direction:column; gap:28px;}
+  .stat{border-top:1px solid var(--line); padding-top:14px;}
+  .stat .num{font-family:var(--font-display); font-size:32px; color:var(--moss-deep);}
+  .stat .lbl{font-family:var(--font-mono); font-size:12px; color:var(--slate); text-transform:uppercase; letter-spacing:.06em;}
+
+  .alt{background:var(--paper-raised); border-top:1px solid var(--line); border-bottom:1px solid var(--line);}
+
+  .topic-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line);}
+  @media (max-width:760px){.topic-grid{grid-template-columns:1fr 1fr;}}
+  @media (max-width:520px){.topic-grid{grid-template-columns:1fr;}}
+  .topic-cell{background:var(--paper-raised); padding:0 0 26px;}
+  .topic-cell img{width:100%; aspect-ratio:4/3; object-fit:cover; display:block; margin-bottom:18px; filter:grayscale(10%) contrast(1.02);}
+  .topic-cell .tbody{padding:0 26px;}
+  .topic-cell .ticon{width:34px; height:34px; margin-bottom:16px; color:var(--growth);}
+  .topic-cell .ticon svg{width:100%; height:100%; stroke:currentColor; fill:none; stroke-width:1.4;}
+  .topic-cell .tag{font-family:var(--font-mono); font-size:12px; color:var(--growth); margin-bottom:8px; display:block;}
+  .topic-cell h3{font-size:17px; margin-bottom:8px;}
+  .topic-cell p{font-size:14px;}
+
+  .ladder{position:relative; padding-left:36px; margin-top:8px;}
+  .ladder::before{content:""; position:absolute; left:6px; top:6px; bottom:6px; width:1px; background:var(--line);}
+  .rung{position:relative; padding:0 0 34px 22px;}
+  .rung::before{content:""; position:absolute; left:-30px; top:4px; width:9px; height:9px; border-radius:50%; background:var(--paper); border:2px solid var(--moss);}
+  .rung.now::before{background:var(--growth); border-color:var(--growth);}
+  .rung .rdate{font-family:var(--font-mono); font-size:12px; color:var(--growth); margin-bottom:4px;}
+  .rung .rlabel{font-size:15px; color:var(--ink); font-weight:500;}
+
+  .sub-cols{display:grid; grid-template-columns:1fr 1fr; gap:56px;}
+  @media (max-width:860px){.sub-cols{grid-template-columns:1fr;}}
+  .sub-cols ol{padding-left:18px; color:var(--slate);}
+  .sub-cols li{margin-bottom:10px;}
+  .note-box{border:1px solid var(--line); border-left:2px solid var(--growth); padding:16px 20px; font-size:14px; margin-top:22px; background:var(--paper-raised);}
+
+  table{width:100%; border-collapse:collapse; font-size:14px; margin-top:8px;}
+  th,td{text-align:left; padding:12px 14px; border-bottom:1px solid var(--line);}
+  th{font-family:var(--font-mono); font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--slate); font-weight:500;}
+  td.num{font-family:var(--font-mono); color:var(--moss-deep);}
+  .table-wrap{overflow-x:auto; border:1px solid var(--line); background:var(--paper-raised);}
+  .table-wrap table{margin-top:0;}
+  .fee-note{font-size:12px; color:var(--slate); margin-top:10px;}
+
+  details{border-top:1px solid var(--line); padding:18px 0;}
+  details:last-child{border-bottom:1px solid var(--line);}
+  summary{cursor:pointer; font-family:var(--font-display); font-size:19px; color:var(--moss-deep); display:flex; justify-content:space-between; align-items:center; list-style:none;}
+  summary::-webkit-details-marker{display:none;}
+  summary::after{content:"+"; font-family:var(--font-mono); font-size:18px; color:var(--growth);}
+  details[open] summary::after{content:"–";}
+  .name-grid{display:grid; grid-template-columns:1fr 1fr; gap:6px 32px; margin-top:16px; font-size:14px;}
+  @media (max-width:600px){.name-grid{grid-template-columns:1fr;}}
+  .name-grid div{padding:6px 0; border-bottom:1px solid var(--line); color:var(--slate);}
+  .name-grid div strong{color:var(--ink); font-weight:500;}
+  .chair-row{display:flex; flex-wrap:wrap; gap:40px; margin-bottom:36px;}
+  .chair-block .lbl{font-family:var(--font-mono); font-size:11px; text-transform:uppercase; color:var(--growth); letter-spacing:.05em; margin-bottom:6px;}
+  .chair-block p{color:var(--ink); font-size:15px;}
+
+  .speaker-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:32px;}
+  @media (max-width:760px){.speaker-grid{grid-template-columns:1fr 1fr;}}
+  @media (max-width:520px){.speaker-grid{grid-template-columns:1fr;}}
+  .speaker-card img{width:100%; aspect-ratio:1/1; object-fit:cover; border:1px solid var(--line); filter:grayscale(45%); margin-bottom:14px;}
+  .speaker-card .avatar{width:100%; aspect-ratio:1/1; border:1px solid var(--line); margin-bottom:14px; background:var(--paper); display:flex; align-items:center; justify-content:center;}
+  .speaker-card .avatar span{font-family:var(--font-display); font-size:34px; color:var(--moss); font-weight:500;}
+  .speaker-card h3{font-size:16px; margin-bottom:2px;}
+  .speaker-card .role{font-size:12px; margin-bottom:8px;}
+  .speaker-card a{font-family:var(--font-mono); font-size:12px; color:var(--moss); text-decoration:none; border-bottom:1px solid var(--growth);}
+
+  .program-box{border:1px solid var(--line); background:var(--paper-raised); padding:56px 40px; text-align:center;}
+  .program-box .ticon{width:40px; height:40px; margin:0 auto 20px; color:var(--growth);}
+  .program-box .ticon svg{width:100%; height:100%; stroke:currentColor; fill:none; stroke-width:1.2;}
+  .program-box p{max-width:480px; margin:0 auto;}
+
+  .pub-box{border:1px solid var(--line); background:var(--paper-raised); padding:40px; display:grid; grid-template-columns:auto auto 1fr; gap:32px; align-items:center;}
+  @media (max-width:700px){.pub-box{grid-template-columns:1fr;}}
+  .if-badge{font-family:var(--font-mono); text-align:center; border:1px solid var(--growth); padding:18px 22px; min-width:120px;}
+  .if-badge .val{font-family:var(--font-display); font-size:30px; color:var(--growth); line-height:1;}
+  .if-badge .lbl{font-size:10px; color:var(--slate); text-transform:uppercase; letter-spacing:.05em; margin-top:6px;}
+
+  .sponsor-row{display:flex; flex-wrap:wrap; gap:44px; align-items:center; justify-content:center; padding:20px 0;}
+  .sponsor-row a{display:block; line-height:0;}
+  .sponsor-row img{height:52px; width:auto; filter:grayscale(100%) contrast(1.1); opacity:.75; transition:opacity .15s ease, filter .15s ease;}
+  .sponsor-row img:hover{filter:none; opacity:1;}
+
+  .colo-box{border:1px solid var(--line); background:var(--paper-raised); padding:32px; display:grid; grid-template-columns:.5fr 1fr; gap:32px;}
+  @media (max-width:760px){.colo-box{grid-template-columns:1fr;}}
+
+  .faq-item{border-top:1px solid var(--line); padding:18px 0;}
+  .faq-item:last-child{border-bottom:1px solid var(--line);}
+  .faq-item summary{font-family:var(--font-body); font-size:15px; font-weight:500; color:var(--ink);}
+  .faq-item p{font-size:14px; margin-top:12px; padding-right:20px;}
+
+  .contact-grid{display:grid; grid-template-columns:1fr 1fr; gap:48px;}
+  @media (max-width:860px){.contact-grid{grid-template-columns:1fr;}}
+  .contact-grid iframe{width:100%; height:320px; border:1px solid var(--line); filter:grayscale(30%);}
+  .contact-item{margin-bottom:22px;}
+  .contact-item .lbl{font-family:var(--font-mono); font-size:11px; text-transform:uppercase; color:var(--growth); letter-spacing:.05em; margin-bottom:6px;}
+  .contact-item p, .contact-item a{font-size:15px; color:var(--ink); text-decoration:none;}
+
+  footer{padding:40px 0; border-top:1px solid var(--line);}
+  footer .wrap{display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;}
+  footer p{font-size:12px; color:var(--slate); font-family:var(--font-mono);}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <a href="https://wp.ensbiotech.edu.dz/" target="_blank" rel="noopener"><img src="assets/ensb.png" alt="ENSB"></a>
+    <a href="https://saidalgroup.dz/" target="_blank" rel="noopener"><img src="assets/saidal.png" alt="Saidal"></a>
+    <img src="assets/biotech_lab.png" alt="Biotechnology laboratory">
+    <img src="assets/bioeng_lab.png" alt="Bioengineering laboratory">
+  </div>
+</div>
+
+<header>
+  <nav class="wrap">
+    <a class="brand" href="#top">ICBB<span>26</span></a>
+    <ul class="navlinks" id="navlinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#topics">Topics</a></li>
+      <li><a href="#speakers">Speakers</a></li>
+      <li><a href="#program">Program</a></li>
+      <li><a href="#colocated">Co-located events</a></li>
+      <li><a href="#publication">Publication</a></li>
+      <li><a href="#scientific-committee">Scientific committee</a></li>
+      <li><a href="#submission">Submission</a></li>
+      <li><a href="#dates">Key dates</a></li>
+      <li><a href="#registration">Registration</a></li>
+      <li><a href="#organization">Organization</a></li>
+      <li><a href="#sponsors">Sponsors</a></li>
+      <li><a href="#faqs">FAQs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="navtoggle" id="navtoggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="wrap">
+    <div class="eyebrow">National Higher School of Biotechnology — Constantine</div>
+    <div class="hero-grid">
+      <div>
+        <h1>ICBB 2026</h1>
+        <p class="theme">« Advancing science for a sustainable future through biotechnology »</p>
+        <p style="max-width:520px; font-size:15px;">The first International Conference on Biotechnology and Bioengineering brings together researchers, academics, industry professionals and students around scientific advances and real-world applications of biotechnology.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="https://cmt3.research.microsoft.com/ICBB2026" target="_blank" rel="noopener">Submit an abstract →</a>
+          <a class="btn" href="#dates">View key dates</a>
+        </div>
+      </div>
+      <div class="hero-side">
+        <div class="hero-meta">
+          <div><strong>6 – 8 December 2026</strong>Constantine, Algeria</div>
+          <div><strong>ENSB</strong>Constantine</div>
+          <div><strong>3 days</strong>Conferences, oral sessions, posters</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ticker">
+    <div class="ticker-track">
+      <span>BIOMEDICAL · PHARMACEUTICAL · AGRI-FOOD · NANOBIOTECHNOLOGY · BIOMATERIALS · INDUSTRIAL BIOTECH · FERMENTATION · BIOINFORMATICS · AI · COMPUTATIONAL BIOLOGY · BIOENERGY · BIOFUELS ·</span>
+      <span>BIOMEDICAL · PHARMACEUTICAL · AGRI-FOOD · NANOBIOTECHNOLOGY · BIOMATERIALS · INDUSTRIAL BIOTECH · FERMENTATION · BIOINFORMATICS · AI · COMPUTATIONAL BIOLOGY · BIOENERGY · BIOFUELS ·</span>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="eyebrow">About</div>
+    <div class="about-grid">
+      <div>
+        <h2>About ICBB</h2>
+        <p>The 1st International Conference on Biotechnology and Bioengineering (ICBB 2026) will be held from December 6-8, 2026, at the École Nationale Supérieure de Biotechnologie (ENSB) in Constantine, Algeria, under the theme: "Advancing Science for a Sustainable Future Through Biotechnology".</p>
+        <p>ICBB 2026 is an international forum dedicated to advancing scientific exchange, innovation, and collaboration in biotechnology and bioengineering. It will bring together researchers, academics, healthcare professionals, industry representatives, and students from around the world to share scientific discoveries, explore emerging technologies, and strengthen interdisciplinary collaborations.</p>
+        <p>The scientific program of ICBB 2026 brings together a dynamic spectrum of biotechnology and life sciences, where fundamental discoveries meet real-world applications. From advances in biomedical and pharmaceutical research to innovations in plant, food and agricultural systems; from the frontiers of nanobiotechnology and advanced biomaterials to breakthroughs in industrial biotechnology and fermentation sciences; and extending to the transformative fields of bioinformatics, artificial intelligence and computational biology, as well as bioenergy, biofuels and sustainable biotechnology; the program reflects the full breadth of modern biotechnology. Through keynote lectures, invited talks, oral presentations, and poster sessions, participants will engage in high-level scientific exchange addressing key global challenges in health, food security, sustainable agriculture, environmental protection, and bioeconomy.</p>
+        <p>We warmly invite researchers, students, and industry professionals to join us in Constantine for three days of scientific excellence, networking, and collaboration, as we work together to advance biotechnology for a sustainable future.</p>
+      </div>
+      <div class="stat-col">
+        <div class="stat"><div class="num">03</div><div class="lbl">Conference days</div></div>
+        <div class="stat"><div class="num">06</div><div class="lbl">Thematic tracks</div></div>
+        <div class="stat"><div class="num">30+</div><div class="lbl">Scientific committee members</div></div>
+        <div class="stat"><div class="num">1st</div><div class="lbl">ICBB edition</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="topics" class="alt">
+  <div class="wrap">
+    <div class="eyebrow">Topics</div>
+    <h2>Six submission tracks</h2>
+    <div class="topic-grid">
+      <div class="topic-cell">
+        <img src="assets/topic-biomedical.png" alt="Biomedical and Pharmaceutical Biotechnology" loading="lazy">
+        <div class="tbody">
+        <span class="tag">01</span><h3>Biomedical and Pharmaceutical Biotechnology</h3><p>Diagnostics, therapeutics, and vaccines — drug discovery, biomarker identification, engineered therapeutic systems, and experimental models for human disease.</p>
+        </div>
+      </div>
+      <div class="topic-cell">
+        <img src="assets/topic-agrifood.png" alt="Plant, Agri-Food Biotechnology" loading="lazy">
+        <div class="tbody">
+        <span class="tag">02</span><h3>Plant, Agri-Food Biotechnology</h3><p>Crop improvement, plant genetics, food safety, and sustainable agriculture — biofortification, microbial applications, and climate-resilient systems.</p>
+        </div>
+      </div>
+      <div class="topic-cell">
+        <img src="assets/topic-nanobio.png" alt="Nanobiotechnology and Advanced Biomaterials" loading="lazy">
+        <div class="tbody">
+        <span class="tag">03</span><h3>Nanobiotechnology and Advanced Biomaterials</h3><p>Nanoscale systems and materials interacting with biology — targeted drug delivery, smart biomaterials, biosensors, and nanostructured medical devices.</p>
+        </div>
+      </div>
+      <div class="topic-cell">
+        <img src="assets/topic-industrial.png" alt="Industrial Biotechnology and Fermentation Sciences" loading="lazy">
+        <div class="tbody">
+        <span class="tag">04</span><h3>Industrial Biotechnology and Fermentation Sciences</h3><p>Large-scale biological production — microbial fermentation, enzyme production, bioprocess engineering, and sustainable production of chemicals and enzymes.</p>
+        </div>
+      </div>
+      <div class="topic-cell">
+        <img src="assets/topic-bioinformatics.png" alt="Bioinformatics, AI and Computational Biology" loading="lazy">
+        <div class="tbody">
+        <span class="tag">05</span><h3>Bioinformatics, AI and Computational Biology</h3><p>Computational approaches to biology — biological and biomedical data analysis, genomic data analysis, AI-driven disease prediction, protein structure modeling, and systems biology.</p>
+        </div>
+      </div>
+      <div class="topic-cell">
+        <img src="assets/topic-bioenergy.png" alt="Bioenergy, Biofuels and Sustainable Biotechnology" loading="lazy">
+        <div class="tbody">
+        <span class="tag">06</span><h3>Bioenergy, Biofuels and Sustainable Biotechnology</h3><p>Renewable biological energy and sustainable technologies — biofuel production, waste-to-energy systems, microbial energy conversion, and circular bioeconomy.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="speakers">
+  <div class="wrap">
+    <div class="eyebrow">Speakers</div>
+    <h2>Keynote speakers</h2>
+    <div class="speaker-grid">
+      <div class="speaker-card">
+        <img src="assets/malika-ait-boudries.png" alt="Prof. Malika Ait Boudries" loading="lazy">
+        <h3>Prof. Malika Ait Boudries</h3>
+        <p class="role">Harvard University, USA</p>
+        <a href="https://scholar.google.com/citations?user=6-2hEjIAAAAJ&hl=en" target="_blank" rel="noopener">Research profile →</a>
+      </div>
+      <div class="speaker-card">
+        <img src="assets/mohammed-gagaoua.png" alt="Prof. Mohammed Gagaoua" loading="lazy">
+        <h3>Prof. Mohammed Gagaoua</h3>
+        <p class="role">INRAE, France</p>
+        <a href="https://scholar.google.com/citations?user=4MpV7LEAAAAJ&hl=en" target="_blank" rel="noopener">Research profile →</a>
+      </div>
+      <div class="speaker-card">
+        <img src="assets/said-dermime.jpg" alt="Prof. Said Dermime" loading="lazy">
+        <h3>Prof. Said Dermime</h3>
+        <p class="role">National Center for Cancer Care and Research, Qatar</p>
+        <a href="https://scholar.google.com/citations?user=wpJVaR0AAAAJ&hl=en" target="_blank" rel="noopener">Research profile →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="program" class="alt">
+  <div class="wrap">
+    <div class="eyebrow">Program</div>
+    <h2>Scientific program</h2>
+    <div class="program-box">
+      <div class="ticon"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="1"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div>
+      <p>The detailed program, including the order of plenary, oral and poster sessions, will be published progressively as the conference approaches.</p>
+    </div>
+  </div>
+</section>
+
+<section id="colocated">
+  <div class="wrap">
+    <div class="eyebrow">Co-located event</div>
+    <h2>Co-located events</h2>
+    <div class="colo-box">
+      <div>
+        <h3>Bioinformatics & computational biology workshop</h3>
+        <img src="assets/amazigh-mokhtari.jpg" alt="Amazigh Mokhtari" style="width:96px; height:96px; object-fit:cover; border-radius:50%; border:1px solid var(--line); margin-top:18px; filter:grayscale(30%);">
+      </div>
+      <div>
+        <p style="margin-bottom:14px;">A workshop dedicated to bioinformatics and computational biology will be held alongside ICBB 2026.</p>
+        <p style="font-size:14px;"><strong style="color:var(--ink); font-weight:500;">Organised by:</strong> Amazigh Mokhtari, Principal Data Scientist, Sanofi · Mohamed Adel Kechkar, Associate Professor, ENSB · Tarek Alloui, Associate Professor, ENSB</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="publication" class="alt">
+  <div class="wrap">
+    <div class="eyebrow">Publication</div>
+    <h2>Special issue</h2>
+    <div class="pub-box">
+      <img src="assets/frontiers.png" alt="Frontiers" style="width:110px; height:auto;">
+      <div class="if-badge"><div class="val">5.8</div><div class="lbl">Impact factor</div></div>
+      <div>
+        <h3 style="margin-bottom:8px;">Frontiers in Bioengineering and Biotechnology</h3>
+        <p style="margin-bottom:14px;">Selected authors will be invited to submit an extended version of their work for publication in a special issue of <em style="font-style:italic;">Frontiers in Bioengineering and Biotechnology</em>.</p>
+        <a class="btn" href="https://www.frontiersin.org/journals/bioengineering-and-biotechnology" target="_blank" rel="noopener">Visit the journal →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="scientific-committee">
+  <div class="wrap">
+    <div class="eyebrow">Scientific committee</div>
+    <h2>Scientific committee</h2>
+    <p style="font-size:13px; margin-bottom:20px;">This list will be updated regularly.</p>
+    <details open>
+      <summary>31 members</summary>
+      <div class="name-grid">
+        <div><strong>Thomas J. Webster</strong> — Northeastern University, USA</div>
+        <div><strong>Malika Ait Boudries</strong> — Harvard University, USA</div>
+        <div><strong>Mohammed Gagaoua</strong> — INRAE, France</div>
+        <div><strong>Said Dermime</strong> — Translational Cancer Research Facility, NCCCR, Qatar</div>
+        <div><strong>Diego Rubiales</strong> — Institute for Sustainable Agriculture, CSIC, Cordoba, Spain</div>
+        <div><strong>Partha Majumder</strong> — National Science Chair, Science & Engineering Board, India</div>
+        <div><strong>Jameel Al-Khayri</strong> — King Faisal University, Saudi Arabia</div>
+        <div><strong>Khaled Trabelsi</strong> — Institut Pasteur, Tunisia</div>
+        <div><strong>Sigrid Flahaut</strong> — Université Libre de Bruxelles, Belgium</div>
+        <div><strong>Douadi Khelifi</strong> — ENSB, Algeria</div>
+        <div><strong>Youcef Ferdi</strong> — ENSB, Algeria</div>
+        <div><strong>Dalila Naimi</strong> — ENSB, Algeria</div>
+        <div><strong>Nadjem Lakhdari</strong> — ENSB, Algeria</div>
+        <div><strong>Rafik Marir</strong> — ENSB, Algeria</div>
+        <div><strong>Moustafa Bani</strong> — ENSB, Algeria</div>
+        <div><strong>Amazigh Mokhtari</strong> — Sanofi, France</div>
+        <div><strong>Hoe-Han Goh</strong> — Universiti Kebangsaan, Malaysia</div>
+        <div><strong>Nicolas Rispail</strong> — Institute for Sustainable Agriculture, CSIC, Cordoba, Spain</div>
+        <div><strong>Gianluca Viscusi</strong> — University of Salerno, Italy</div>
+        <div><strong>Amina Rhouati</strong> — Alfaisal University, Saudi Arabia</div>
+        <div><strong>Mohamed Nadhir Djekidel</strong> — Sidra Medicine, Qatar</div>
+        <div><strong>Houssem Boulebd</strong> — Constantine 1 University, Algeria</div>
+        <div><strong>Sofiane Boudalia</strong> — University of Guelma, Algeria</div>
+        <div><strong>Abdesselam Ferdi</strong> — University of Tartu, Estonia</div>
+        <div><strong>Abdelhafid Hamidechi</strong> — Abbes Laghrour University Khenchela, Algeria</div>
+        <div><strong>Noureddine Kacem Chaouech</strong> — University of Constantine 1, Algeria</div>
+        <div><strong>Fathi Berrabah</strong> — Research Unit in Medicinal Plants (CRBt) Laghouat, Algeria</div>
+        <div><strong>Sihem Arris</strong> — University of Constantine 3, Algeria</div>
+        <div><strong>Nawel Outili</strong> — University of Constantine 3, Algeria</div>
+        <div><strong>Akila Ben Aissa</strong> — University of Constantine 3, Algeria</div>
+        <div><strong>Mohamed Bouhelassa</strong> — University of Constantine 3, Algeria</div>
+      </div>
+    </details>
+  </div>
+</section>
+
+<section id="submission" class="alt">
+  <div class="wrap">
+    <div class="eyebrow">Submission</div>
+    <h2>How to submit</h2>
+    <p style="margin-bottom:14px; max-width:640px;">Manuscript submission consists of two straps:</p>
+    <ul style="padding-left:18px; color:var(--slate); list-style:disc; margin-bottom:14px; max-width:640px;">
+      <li style="margin-bottom:8px;">First, authors are required to submit an abstract.</li>
+      <li style="margin-bottom:8px;">If the abstract is accepted, authors will be invited to submit a short paper.</li>
+    </ul>
+    <p style="margin-bottom:32px; max-width:640px;">To ensure a smooth submission process, please follow the guidelines outlined below.</p>
+    <h3 style="margin-bottom:20px;">Abstract preparation guidelines</h3>
+    <div class="sub-cols">
+      <div>
+        <p style="margin-bottom:18px;">The abstract is the primary document used by the Scientific Committee for the initial evaluation of submitted work.</p>
+        <ul style="padding-left:18px; color:var(--slate); list-style:disc;">
+          <li style="margin-bottom:10px;">Abstracts must be written in English and must not exceed 400 words (excluding the title, authors, affiliations, and keywords).</li>
+          <li style="margin-bottom:10px;">They must be clear, concise, and well-structured using the following headings: <strong style="color:var(--ink); font-weight:500;">Background, Objective, Methods, Results, and Conclusion.</strong></li>
+          <li style="margin-bottom:10px;">The abstract should provide sufficient scientific information to enable reviewers to assess the originality, methodology, scientific significance, and overall quality of the research.</li>
+          <li style="margin-bottom:10px;">The Results section should include quantitative findings and appropriate statistical analyses whenever possible.</li>
+          <li style="margin-bottom:10px;">Abstracts stating only that "results will be discussed" or lacking sufficient scientific information may receive a lower evaluation score or may not be considered for acceptance.</li>
+          <li style="margin-bottom:10px;">Authors should provide 3–5 keywords.</li>
+        </ul>
+      </div>
+      <div>
+        <p style="margin-bottom:24px;">Studies involving human participants or animals must comply with applicable ethical standards and have obtained the necessary ethical approvals from the relevant institutional review board or ethics committee, where applicable. Authors are responsible for ensuring ethical compliance. Failure to meet these requirements may result in exclusion from the conference proceedings, even if the abstract has been accepted for presentation.</p>
+        <a class="btn primary" href="https://cmt3.research.microsoft.com/ICBB2026" target="_blank" rel="noopener">Submit my abstract on CMT →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="dates">
+  <div class="wrap">
+    <div class="eyebrow">Calendar</div>
+    <h2>Key dates</h2>
+    <div class="ladder">
+      <div class="rung now"><div class="rdate">12 July 2026</div><div class="rlabel">Call for abstracts opens</div></div>
+      <div class="rung"><div class="rdate">7 September 2026</div><div class="rlabel">Early bird abstract submission</div></div>
+      <div class="rung"><div class="rdate">1 October 2026</div><div class="rlabel">Regular abstract submission</div></div>
+      <div class="rung"><div class="rdate">+ 2 weeks</div><div class="rlabel">Acceptance / rejection notification</div></div>
+      <div class="rung"><div class="rdate">+ 3 weeks</div><div class="rlabel">Participation confirmation and registration</div></div>
+      <div class="rung"><div class="rdate">1 November 2026</div><div class="rlabel">Short paper submission (conference proceedings)</div></div>
+      <div class="rung"><div class="rdate">6 – 8 December 2026</div><div class="rlabel">Conference dates</div></div>
+      <div class="rung"><div class="rdate">1 February 2027</div><div class="rlabel">Full manuscript for the special issue</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="registration" class="alt">
+  <div class="wrap">
+    <div class="eyebrow">Registration</div>
+    <h2>Registration fees</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Category</th><th>National — early</th><th>National — regular</th><th>International — early</th><th>International — regular</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>PhD students</td><td class="num">5,000 DZD</td><td class="num">7,000 DZD</td><td class="num">€100</td><td class="num">€150</td></tr>
+          <tr><td>Faculty / academics</td><td class="num">10,000 DZD</td><td class="num">15,000 DZD</td><td class="num">€200</td><td class="num">€300</td></tr>
+          <tr><td>Researchers</td><td class="num">10,000 DZD</td><td class="num">15,000 DZD</td><td class="num">€200</td><td class="num">€300</td></tr>
+          <tr><td>Industry participants</td><td class="num">15,000 DZD</td><td class="num">20,000 DZD</td><td class="num">€500</td><td class="num">€700</td></tr>
+          <tr><td>No scientific contribution</td><td class="num">7,000 DZD</td><td class="num">12,000 DZD</td><td class="num">—</td><td class="num">—</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="fee-note">National rates apply to participants affiliated with an Algerian institution. International rates apply to participants affiliated with an institution outside Algeria. Payment instructions are sent by the organising committee in the acceptance e-mail.</p>
+
+    <h3 style="margin-top:48px; margin-bottom:16px;">Payment</h3>
+    <p style="max-width:720px;">Upon acceptance of the abstract, participants will be required to complete their registration by paying the applicable fees, as indicated in the acceptance email sent by the Organizing Committee. Detailed instructions regarding payment methods and procedures will be provided in the same email.</p>
+  </div>
+</section>
+
+<section id="organization" class="alt">
+  <div class="wrap">
+    <div class="eyebrow">Organization</div>
+    <h2>Organizing committee</h2>
+    <div class="chair-row">
+      <div class="chair-block"><div class="lbl">Honorary chair</div><p>Douadi Khelifi, Director of ENSB<br>Mourad Belkhelfa, CEO of Saidal</p></div>
+      <div class="chair-block"><div class="lbl">Chairs</div><p>Mohammed Berkani, ENSB<br>Mohamed Adel Kechkar, ENSB</p></div>
+    </div>
+
+    <details>
+      <summary>Organising committee (37 members)</summary>
+      <div class="name-grid">
+        <div><strong>Mohammed Berkani</strong> — ENSB, President</div>
+        <div><strong>Mohamed Adel Kechkar</strong> — ENSB</div>
+        <div><strong>Fatma Zahra Sakhri</strong> — ENSB</div>
+        <div><strong>Nassim Seghir</strong> — ENSB, Web Chair</div>
+        <div><strong>Narimene Beder</strong> — Saidal</div>
+        <div><strong>Hamida Bouchekhlal</strong> — Saidal</div>
+        <div><strong>Mouna Aoulmane</strong> — Saidal</div>
+        <div><strong>Malak Nour El Houda Hamid</strong> — Saidal</div>
+        <div><strong>Dalila Naimi</strong> — ENSB</div>
+        <div><strong>Mohamed Maarouf Aribi</strong> — ENSB</div>
+        <div><strong>Fateh Merouane</strong> — ENSB</div>
+        <div><strong>Moustafa Bani</strong> — ENSB</div>
+        <div><strong>Souhaib Zerrouki</strong> — ENSB</div>
+        <div><strong>Rafik Marir</strong> — ENSB</div>
+        <div><strong>Nadjem Lakhdari</strong> — ENSB</div>
+        <div><strong>Ahlem Chelghoum</strong> — ENSB</div>
+        <div><strong>Chemeseddine Derabli</strong> — ENSB</div>
+        <div><strong>Mahbouba Benmati</strong> — ENSB</div>
+        <div><strong>Taklit Maddi</strong> — ENSB</div>
+        <div><strong>Noureddine Rahim</strong> — ENSB</div>
+        <div><strong>Youcef Ferdi</strong> — ENSB</div>
+        <div><strong>Fouzia Leulmi</strong> — ENSB</div>
+        <div><strong>Souad Amiour</strong> — ENSB</div>
+        <div><strong>Moufida Rira</strong> — ENSB</div>
+        <div><strong>Tarek Alloui</strong> — ENSB</div>
+        <div><strong>Ahmed Bouziane</strong> — ENSB</div>
+        <div><strong>Mouna Imene Ousaadi</strong> — ENSB</div>
+        <div><strong>Imene Assadi</strong> — ENSB</div>
+        <div><strong>Amina Alouache</strong> — ENSB</div>
+        <div><strong>Marwa Zermane</strong> — ENSB</div>
+        <div><strong>Ines Laourari</strong> — ENSB</div>
+        <div><strong>Antar Mohamed Bouchala</strong> — ENSB</div>
+        <div><strong>Gueraiche Sara</strong> — ENSB</div>
+        <div><strong>Asma Chebbahi</strong> — ENSB</div>
+        <div><strong>Skander Dekieche</strong> — ENSB</div>
+        <div><strong>Asma Guemraoui</strong> — ENSB</div>
+        <div><strong>Houssem Benkara</strong> — ENSB</div>
+      </div>
+    </details>
+  </div>
+</section>
+
+<section id="sponsors">
+  <div class="wrap">
+    <div class="eyebrow">Partners</div>
+    <h2>Sponsors and partners</h2>
+    <div class="sponsor-row">
+      <a href="https://dgrsdt.dz/fr" target="_blank" rel="noopener"><img src="assets/rsdt.png" alt="DGRSDT" loading="lazy"></a>
+      <a href="https://www.atrssv.dz/" target="_blank" rel="noopener"><img src="assets/atrssv2.png" alt="ATRSS" loading="lazy"></a>
+      <img src="assets/cambio.png" alt="Cambio" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section id="faqs" class="alt">
+  <div class="wrap">
+    <div class="eyebrow">FAQs</div>
+    <h2>Frequently asked questions</h2>
+
+    <details class="faq-item">
+      <summary>When is ICBB 2026?</summary>
+      <p>ICBB 2026 will be held from 6 to 8 December 2026.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Where is ICBB 2026 held?</summary>
+      <p>The conference takes place in Constantine, Algeria, at the École Nationale Supérieure de Biotechnologie.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Why should I attend ICBB 2026?</summary>
+      <p>ICBB 2026 provides a platform to discover the latest advances in biotechnology and bioengineering, present your research, exchange ideas with international experts, establish new collaborations, and expand your professional network through keynote lectures, scientific sessions, poster presentations, and networking events.</p>
+    </details>
+    <details class="faq-item">
+      <summary>How do I submit an abstract?</summary>
+      <p>Abstracts must be submitted online. Simply click the submission link on the conference website to access the submission site and follow the instructions.</p>
+    </details>
+    <details class="faq-item">
+      <summary>What is the deadline for abstract submission?</summary>
+      <p>Please refer to the Key dates section for the latest submission deadlines.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Can I submit more than one abstract?</summary>
+      <p>Yes. Authors may submit multiple abstracts.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Will accepted abstracts be published?</summary>
+      <p>Accepted abstracts will be published in the conference proceedings after peer review.</p>
+    </details>
+    <details class="faq-item">
+      <summary>How are abstracts evaluated?</summary>
+      <p>All submissions undergo peer review by members of the Scientific Committee based on originality, scientific quality, relevance to the conference themes, and clarity.</p>
+    </details>
+    <details class="faq-item">
+      <summary>When does registration open?</summary>
+      <p>Please refer to the Registration section for information on Early Bird and Regular registration periods, registration fees, and deadlines.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Can I pay the registration fee on-site?</summary>
+      <p>Unfortunately, registration fees must be paid in advance through the official registration system to confirm participation.</p>
+    </details>
+    <details class="faq-item">
+      <summary>What is included in the registration fee?</summary>
+      <p>Access to all scientific sessions, conference materials, electronic conference proceedings, coffee breaks, lunches, access to poster sessions, and a Certificate of Participation.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Can I modify my abstract after submission?</summary>
+      <p>Minor modifications may be allowed before the submission deadline. After the deadline, no changes can be made. Please contact the Scientific Committee if corrections are necessary.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Can I transfer my registration to another participant?</summary>
+      <p>No. Registration is personal and non-transferable.</p>
+    </details>
+    <details class="faq-item">
+      <summary>What is the cancellation and refund policy?</summary>
+      <p>Cancellation requests must be submitted in writing. Refunds, if applicable, will depend on the date of cancellation and administrative costs. Full details are available on the Registration section.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Can I attend only one day?</summary>
+      <p>Registration is available for the full conference only. Certificates of Participation will only be issued at the end of the conference.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Can a co-author present the work on my behalf? Will the certificate still be issued in my name?</summary>
+      <p>Yes. A co-author may present the work if the registered presenting author is unable to attend. The certificate will be issued to the actual presenter, while authorship credit remains as indicated in the submitted abstract.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Can I attend ICBB 2026 without presenting scientific work?</summary>
+      <p>Yes. Participants may attend without presenting a paper and are welcome to attend all scientific sessions and activities. All registered participants will receive a Certificate of Attendance.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Will participants receive a certificate?</summary>
+      <p>Yes. All registered participants will receive a printed Certificate of Participation on the last day of the conference.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Will there be awards for the best oral and poster presentations?</summary>
+      <p>Yes. Awards will be given for the best oral and poster presentations to recognize outstanding scientific contributions.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Who can I contact for scientific questions?</summary>
+      <p>Please send your inquiries to the conference Scientific Committee via the contact information provided on the conference website.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Is Algeria a safe destination for international visitors?</summary>
+      <p>Yes. Algeria is generally considered a safe and welcoming destination for international visitors. The organizing committee will provide support to ensure a smooth and safe experience in Constantine.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Do I need a visa to travel to Algeria?</summary>
+      <p>Visa requirements depend on your nationality. Participants are advised to consult the nearest Algerian embassy or consulate well in advance.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Can the organizers provide an invitation letter?</summary>
+      <p>Yes. Invitation letters will be issued to registered participants upon request for visa application purposes.</p>
+    </details>
+    <details class="faq-item">
+      <summary>Will the conference recommend hotels?</summary>
+      <p>Yes. A list of recommended hotels is available on the conference website, along with accommodation options and contact details for each hotel.</p>
+    </details>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="eyebrow">Contact</div>
+    <h2>Get in touch</h2>
+    <div class="contact-grid">
+      <div>
+        <div class="contact-item">
+          <div class="lbl">Address</div>
+          <p>National Higher School of Biotechnology, University of Constantine 3 — Salah Boubnider, Ali Mendjeli New Town, Constantine.</p>
+        </div>
+        <div class="contact-item">
+          <div class="lbl">E-mail</div>
+          <a href="mailto:contact-ICBB2026@ensbiotech.edu.dz">contact-ICBB2026@ensbiotech.edu.dz</a>
+        </div>
+        <div class="contact-item">
+          <div class="lbl">Submission</div>
+          <a href="https://cmt3.research.microsoft.com/ICBB2026" target="_blank" rel="noopener">cmt3.research.microsoft.com/ICBB2026</a>
+        </div>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3216.342570963184!2d6.587974422886936!3d36.27973694686999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f1706d9ee98211%3A0x6c619be67544b26c!2sNational%20Superior%20School%20of%20Biotechnology!5e0!3m2!1sen!2sdz!4v1783459304294!5m2!1sen!2sdz" loading="lazy" title="ENSB location"></iframe>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>© ICBB 2026 — National Higher School of Biotechnology, Constantine</p>
+    <p>Submissions managed via Microsoft CMT</p>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.getElementById('navtoggle');
+  const links = document.getElementById('navlinks');
+  toggle.addEventListener('click', () => links.classList.toggle('open'));
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => links.classList.remove('open')));
+</script>
+
+</body>
+</html>
