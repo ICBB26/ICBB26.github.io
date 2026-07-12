@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ICBB 2026 — 1st International Conference on Biotechnology & Bioengineering</title>
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-180.png">
 <meta name="description" content="ICBB 2026 — 1st International Conference on Biotechnology and Bioengineering, December 6-8, 2026, ENSB, Constantine, Algeria. Theme: Advancing Science for a Sustainable Future Through Biotechnology. Call for abstracts now open.">
 <meta name="keywords" content="ICBB 2026, biotechnology conference, bioengineering conference, Constantine Algeria, ENSB, Ecole Nationale Superieure de Biotechnologie, biomedical and pharmaceutical biotechnology, plant agri-food biotechnology, nanobiotechnology, advanced biomaterials, industrial biotechnology, fermentation sciences, bioinformatics, artificial intelligence, computational biology, bioenergy, biofuels, sustainable biotechnology, call for abstracts, scientific committee, international conference 2026">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -140,9 +143,14 @@
   @media (max-width:600px){.name-grid{grid-template-columns:1fr;}}
   .name-grid div{padding:6px 0; border-bottom:1px solid var(--line); color:var(--slate);}
   .name-grid div strong{color:var(--ink); font-weight:500;}
-  .chair-row{display:flex; flex-wrap:wrap; gap:40px; margin-bottom:36px;}
-  .chair-block .lbl{font-family:var(--font-mono); font-size:11px; text-transform:uppercase; color:var(--growth); letter-spacing:.05em; margin-bottom:6px;}
-  .chair-block p{color:var(--ink); font-size:15px;}
+  .chair-row{display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-bottom:36px;}
+  .chair-block{
+    position:relative; overflow:hidden; padding:22px 24px; border-radius:2px;
+    background:var(--paper-raised); border:1px solid var(--line); border-left:5px solid var(--growth);
+  }
+  .chair-block .lbl{font-family:var(--font-mono); font-size:11px; text-transform:uppercase; color:#fff; letter-spacing:.05em; margin-bottom:10px; display:inline-flex; align-items:center; gap:6px; background:var(--growth); padding:4px 11px; border-radius:2px; font-weight:600;}
+  .chair-block p{color:var(--moss-deep); font-size:16px; font-weight:500; line-height:1.6;}
+  @media (max-width:600px){.chair-row{grid-template-columns:1fr;}}
 
   .speaker-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:32px;}
   @media (max-width:760px){.speaker-grid{grid-template-columns:1fr 1fr;}}
@@ -186,8 +194,8 @@
   .contact-item p, .contact-item a{font-size:15px; color:var(--ink); text-decoration:none;}
 
   footer{padding:40px 0; border-top:1px solid var(--line);}
-  footer .wrap{display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;}
-  footer p{font-size:12px; color:var(--slate); font-family:var(--font-mono);}
+  footer .wrap{display:flex; flex-direction:column; gap:6px;}
+  footer p{font-size:12px; color:var(--slate); font-family:var(--font-mono); text-align:left;}
 </style>
 </head>
 <body>
@@ -203,7 +211,7 @@
 
 <header>
   <nav class="wrap">
-    <a class="brand" href="#top">ICBB<span>26</span></a>
+    <a class="brand" href="#top"><img src="assets/icbb-logo-v2-transparent.png" alt="ICBB 2026" style="height:76px; width:auto; display:block;"></a>
     <ul class="navlinks" id="navlinks">
       <li><a href="#about">About</a></li>
       <li><a href="#topics">Topics</a></li>
@@ -326,7 +334,7 @@
     <div class="eyebrow">Organization</div>
     <h2>Organizing committee</h2>
     <div class="chair-row">
-      <div class="chair-block"><div class="lbl">Honorary chair</div><p>Prof. Douadi Khelifi, Director of ENSB<br>Prof. Mourad Belkhelfa, CEO of Saidal</p></div>
+      <div class="chair-block"><div class="lbl">Honorary chairs</div><p>Prof. Douadi Khelifi, Director of ENSB<br>Prof. Mourad Belkhelfa, CEO of Saidal</p></div>
       <div class="chair-block"><div class="lbl">Chairs</div><p>Dr. Mohammed Berkani, ENSB<br>Dr. Mohamed Adel Kechkar, ENSB</p></div>
     </div>
 
@@ -469,6 +477,7 @@
         <div><strong>Prof. Nadjem Lakhdari</strong> — ENSB, Algeria</div>
         <div><strong>Prof. Rafik Marir</strong> — ENSB, Algeria</div>
         <div><strong>Prof. Moustafa Bani</strong> — ENSB, Algeria</div>
+        <div><strong>Dr. Fatma Zahra Sakhri</strong> — ENSB, Algeria</div>
         <div><strong>Dr. Amazigh Mokhtari</strong> — Sanofi, France</div>
         <div><strong>Prof. Hoe-Han Goh</strong> — Universiti Kebangsaan, Malaysia</div>
         <div><strong>Prof. Nicolas Rispail</strong> — Institute for Sustainable Agriculture, CSIC, Cordoba, Spain</div>
@@ -481,7 +490,7 @@
         <div><strong>Prof. Abdelhafid Hamidechi</strong> — Abbes Laghrour University Khenchela, Algeria</div>
         <div><strong>Prof. Noureddine Kacem Chaouech</strong> — University of Constantine 1, Algeria</div>
         <div><strong>Prof. Fathi Berrabah</strong> — Research Unit in Medicinal Plants (CRBt) Laghouat, Algeria</div>
-        <div><strong>Dr. Belgacem Zarouri</strong> — National Biotechnology Research Center (CRBt), Constantine, Algeria</div>
+        <div><strong>Dr. Belkacem Zarouri</strong> — National Biotechnology Research Center (CRBt), Constantine, Algeria</div>
         <div><strong>Prof. Sihem Arris</strong> — University of Constantine 3, Algeria</div>
         <div><strong>Prof. Nawel Outili</strong> — University of Constantine 3, Algeria</div>
         <div><strong>Prof. Akila Ben Aissa</strong> — University of Constantine 3, Algeria</div>
@@ -630,7 +639,7 @@
     </details>
     <details class="faq-item">
       <summary>Can I modify my abstract after submission?</summary>
-      <p>Minor modifications may be allowed before the submission deadline. After the deadline, no changes can be made. Please contact the Scientific Committee if corrections are necessary.</p>
+      <p>Minor modifications to submitted abstracts may be made before the submission deadline. After the deadline, changes will generally not be accepted. However, in exceptional cases, authors may contact the Organizing Committee to request corrections, which will be considered on a case-by-case basis.</p>
     </details>
     <details class="faq-item">
       <summary>Can I transfer my registration to another participant?</summary>
@@ -638,7 +647,8 @@
     </details>
     <details class="faq-item">
       <summary>What is the cancellation and refund policy?</summary>
-      <p>Cancellation requests must be submitted in writing. Refunds, if applicable, will depend on the date of cancellation and administrative costs. Full details are available on the Registration section.</p>
+      <p>Cancellation requests must be submitted in writing to the conference organizing committee. Refunds will be processed according to the following schedule:</p>
+      <p>Cancellation before 5 November 2026: 100% refund of the registration fee (excluding bank transaction charges, if applicable).<br>Cancellation on or after 5 November 2026: No refund will be provided.</p>
     </details>
     <details class="faq-item">
       <summary>Can I attend only one day?</summary>
@@ -662,7 +672,7 @@
     </details>
     <details class="faq-item">
       <summary>Who can I contact for scientific questions?</summary>
-      <p>Please send your inquiries to the conference Scientific Committee via the contact information provided on the conference website.</p>
+      <p>For scientific inquiries, please contact the conference organizing committee using the contact information provided on the conference website. Your questions will be forwarded to the appropriate members of the Scientific Committee for review and response.</p>
     </details>
     <details class="faq-item">
       <summary>Is Algeria a safe destination for international visitors?</summary>
@@ -678,7 +688,16 @@
     </details>
     <details class="faq-item">
       <summary>Will the conference recommend hotels?</summary>
-      <p>Yes. A list of recommended hotels is available on the conference website, along with accommodation options and contact details for each hotel.</p>
+      <p>Yes. A list of recommended hotels near the conference venue is available below:</p>
+      <p>
+        <strong style="color:var(--ink); font-weight:500;">Hotel Errafie</strong> — Google Maps: 7H4J+WX4, UV 07, Lot 15, Ali Mendjeli, El Khroub<br>
+        <strong style="color:var(--ink); font-weight:500;">Dortoir Le Pic</strong> — Google Maps: 7H4J+JW, El Khroub<br>
+        <strong style="color:var(--ink); font-weight:500;">Hôtel Rossignol</strong> — Google Maps: 7H7R+8J, El Khroub
+      </p>
+    </details>
+    <details class="faq-item">
+      <summary>Can I present my work at the conference without publishing it in the proceedings?</summary>
+      <p>Yes. Authors who do not wish to have their abstract or full paper included in the conference proceedings may request exclusion from the proceedings during the submission or registration process. Their work may still be presented at the conference, subject to acceptance by the Scientific Committee.</p>
     </details>
   </div>
 </section>
